@@ -1,0 +1,73 @@
+.box-container .box-header {
+    display: flex;
+    background-color: #13d4ca;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.box-container .box-header .signin {
+    font-size: 2em;
+}
+
+.box-header .fas {
+    margin: 5%;
+    font-size: 1.5em;
+}
+
+.box-container {
+    /* display: grid; */
+    margin-top: 5%;
+    margin-left: 35%;
+    /* justify-content: space-around; */
+    width: 28%;
+    /* background-color: blueviolet; */
+    border-radius: 15px;
+    box-shadow: 1px 0px 20px 0px gray;
+}
+
+.box-container .box-body .box-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-options {
+    margin: 2% 5% 0 5%;
+}
+
+.buttons {
+    margin-left: 5%;
+    height: 2.4em;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+button {
+    width: 90%;
+    /* border: 1px solid blue; */
+    border-radius: 20px;
+    /* margin-left: 5%; */
+}
+
+.box-container .box-body div {
+    justify-content: space-between;
+}
+
+input {
+    width: 100%;
+    height: 2em;
+    /* position: relative; */
+}
+
+.box-body i {
+    position: absolute;
+    margin-top: 0.5%;
+    right: 39%;
+    opacity: 0.5;
+}
+
+.box-body .sign-in-requirements {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
